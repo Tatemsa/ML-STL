@@ -8,4 +8,5 @@ import Stl.ML.ml.client.model.Client;
 @Repository
 public interface ClientRepository extends JpaRepository<Client, Integer> {
 
+
 }

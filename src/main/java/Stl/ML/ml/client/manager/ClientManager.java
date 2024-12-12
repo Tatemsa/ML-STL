@@ -30,4 +30,5 @@ public class ClientManager {
 	public Optional<Client> getByID(@PathVariable int id) {
 		return userRepository.findById(id);
 	}
+
 }

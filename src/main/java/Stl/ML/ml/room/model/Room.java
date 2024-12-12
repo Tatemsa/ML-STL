@@ -17,6 +17,7 @@ public class Room {
 	@Column(name = "RM_ID")
 	private Integer id;
 
+
 	@Column(name = "RM_NUMBER", unique = true, nullable = false, length = 10)
 	private String number;
 

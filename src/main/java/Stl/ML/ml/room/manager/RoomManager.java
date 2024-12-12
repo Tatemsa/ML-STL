@@ -36,5 +36,4 @@ public class RoomManager {
 		return roomRepository.findByRoomNumber(number);
 	}
 
-
 }

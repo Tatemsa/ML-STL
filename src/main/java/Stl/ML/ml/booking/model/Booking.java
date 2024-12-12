@@ -116,6 +116,7 @@ public class Booking {
 		this.adultNumber = adultNumber;
 	}
 
+
 	@Override
 	public String toString() {
 		return "Booking{" +
