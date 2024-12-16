@@ -12,5 +12,4 @@ public interface RoomRepository extends JpaRepository<Room, Integer> {
 
 	@Query("select r from Room r where r.number = :number")
 	Room findByRoomNumber(@Param("number") String number);
-
 }

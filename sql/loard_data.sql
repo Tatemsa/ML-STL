@@ -29,6 +29,9 @@ VALUES
 /*!40000 ALTER TABLE `CLIENT` ENABLE KEYS */;
 UNLOCK TABLES;
 
+--
+-- Dumping data for table `ROOM`
+--
 
 INSERT INTO ROOM (RM_NUMBER, RM_PRICE, RM_STANDING, RM_STATUS, RM_IMAGE)
 VALUES
@@ -37,6 +40,9 @@ VALUES
 ('C303', 100.00, 'hight', 'pending', 'image_c303.jpg'),
 ('D404', 120.75, 'hight', 'booked', 'image_d404.jpg');
 
+--
+-- Dumping data for table `BOOKING`
+--
 
 INSERT INTO BOOKING (BK_CL_ID, BK_RM_ID, BK_START_DATE, BK_END_DATE, BK_STATUS, BK_CHILD_NUMBER, BK_ADULT_NUMBER)
 VALUES
